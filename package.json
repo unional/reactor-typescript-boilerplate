@@ -9,6 +9,7 @@
     "clean": "rimraf build"
   },
   "author": "unional",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/unional/reactor-typescript-boilerplate.git"
