@@ -9,4 +9,4 @@ node_js:
   - "stable"
 
 after_script:
-  - npm run verify
+  - npm run build
