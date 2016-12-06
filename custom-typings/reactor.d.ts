@@ -5,11 +5,6 @@ declare module "@extjs/reactor" {
     /**
      * Adds a stylesheet that mimics an Ext JS Viewport by setting the html, body, and react root element to height: 100%.
      * Set this to true when using an Ext JS compimport React = require('react')
-
-export interface InstallOptions {
-    /**
-     * Adds a stylesheet that mimics an Ext JS Viewport by setting the html, body, and react root element to height: 100%.
-     * Set this to true when using an Ext JS component at the root of your app.
      */
     viewport: boolean;
   }
