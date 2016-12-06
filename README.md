@@ -1,6 +1,6 @@
 # Ext JS Reactor Boilerplate
 
-A foundation for React apps that use Ext JS components.
+A foundation for React apps that use Ext JS components, in TypeScript.
 
 ## Requirements
 
@@ -9,26 +9,32 @@ A foundation for React apps that use Ext JS components.
 
 ## Quick Start
 
-If you haven't already, download Ext JS 6.2+ and Sencha Cmd 6.2+.
+If you haven't already, download Ext JS 6.2+ and Sencha Cmd 6.2+ (and install it).
 
 Then, run the following to clone and build the project:
 
-    git clone git@github.com:sencha/extjs-reactor.git
-    cd extjs-reactor/packages/reactor-boilerplate
-    npm install
+```sh
+git clone https://github.com/unional/reactor-typescript-boilerplate.git
+
+cd reactor-typescript-boilerplate
+npm install
+```
 
 Copy your Ext JS SDK into packages/reactor-boilerplate/ext, then run:
 
-    npm start
+```sh
+npm start
+```
 
-This will build and server the app using webpack-dev-server.  The build is done when you see the following line:
+This will build and server the app using `webpack-dev-server`.  The build is done when you see the following line:
 
-    [INF] Waiting for changes...  
+    [INF] Waiting for changes...
 
-You can view the app by pointing your browser to [http://localhost:8080](http://localhost:8080)
+You can view the app by pointing your browser to [http://localhost:8070](http://localhost:8070)
 
 You can also run and serve a production build using:
 
-    npm run build
-    npm run prod
-
+```sh
+npm run build
+npm run prod
+```

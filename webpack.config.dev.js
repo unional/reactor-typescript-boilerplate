@@ -2,7 +2,7 @@
 
 const path = require('path');
 const webpack = require('webpack');
-const ExtJSReactorWebpackTSPlugin = require('@extjs/reactor-webpack-ts-plugin').default;
+const ExtJSReactorWebpackTSPlugin = require('reactor-webpack-ts-plugin').default;
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
