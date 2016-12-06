@@ -1,0 +1,42 @@
+{
+  "name": "@extjs/reactor-typescript-boilerplate",
+  "private": true,
+  "version": "0.1.13",
+  "description": "A boilerplate project showing how to integrate React and Ext JS using the modern toolkit.",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack-dev-server --content-base ./build --compress",
+    "start": "webpack-dev-server --progress --profile --colors --config webpack.config.dev.js --port 8070",
+    "build": "npm run clean && webpack --config webpack.config.prod.js --progress --profile --colors",
+    "clean": "rimraf build"
+  },
+  "author": "unional",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sencha/extjs-reactor.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@extjs/reactor": "^0.2.0",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  },
+  "devDependencies": {
+    
+    "@extjs/reactor-webpack-ts-plugin": "^0.2.1",
+    "@types/react": "^0.14.52",
+    "@types/react-dom": "^0.14.19",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "html-webpack-plugin": "^2.24.1",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^1.2.2",
+    "typescript": "^2.2.0-dev.20161201",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

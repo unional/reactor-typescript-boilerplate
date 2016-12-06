@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "newLine": "LF",
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "target": "es5",
+    "jsx": "react"
+  },
+  "atom": {
+    "rewriteTsconfig": false
+  },
+  "buildOnSave": false,
+  "compileOnSave": false,
+  "include": [
+    "src/**/*",
+    "custom-typings/*"
+  ]
+}
