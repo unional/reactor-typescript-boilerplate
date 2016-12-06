@@ -21,13 +21,11 @@
     "react-dom": "^15.4.0"
   },
   "devDependencies": {
-    "reactor-webpack-ts-plugin": "^0.2.1",
     "@types/react": "^0.14.52",
     "@types/react-dom": "^0.14.19",
-    "babel-core": "^6.17.0",
-    "babel-loader": "^6.2.5",
     "copy-webpack-plugin": "^3.0.1",
     "html-webpack-plugin": "^2.24.1",
+    "reactor-webpack-ts-plugin": "^0.2.1",
     "source-map-loader": "^0.1.5",
     "ts-loader": "^1.2.2",
     "typescript": "^2.2.0-dev.20161201",
