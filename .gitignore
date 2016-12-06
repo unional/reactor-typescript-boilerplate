@@ -46,3 +46,6 @@ spec-out
 build
 ext
 .sencha
+
+# yarn
+yarn.lock
