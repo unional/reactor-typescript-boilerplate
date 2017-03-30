@@ -21,15 +21,15 @@
     "react-dom": "^15.4.0"
   },
   "devDependencies": {
-    "@types/react": "^0.14.52",
+    "@types/react": "^15.0.0",
     "@types/react-dom": "^0.14.19",
-    "copy-webpack-plugin": "^3.0.1",
+    "copy-webpack-plugin": "^4.0.1",
     "html-webpack-plugin": "^2.24.1",
     "reactor-webpack-ts-plugin": "^0.2.1",
     "source-map-loader": "^0.1.5",
-    "ts-loader": "^1.2.2",
+    "ts-loader": "^2.0.1",
     "typescript": "^2.2.0-dev.20161201",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.2"
+    "webpack": "^2.3.0",
+    "webpack-dev-server": "^2.2.1"
   }
 }
