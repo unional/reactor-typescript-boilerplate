@@ -31,7 +31,7 @@
     "copy-webpack-plugin": "^4.0.1",
     "html-webpack-plugin": "^2.24.1",
     "reactor-webpack-ts-plugin": "^0.2.1",
-    "source-map-loader": "^0.1.5",
+    "source-map-loader": "^0.2.1",
     "ts-loader": "^2.0.1",
     "typescript": "^2.2.0-dev.20161201",
     "webpack": "^2.3.0",
