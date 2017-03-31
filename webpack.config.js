@@ -25,9 +25,9 @@ module.exports = function (env) {
 
   const plugins = [
     new ExtJSReactorWebpackTSPlugin({
-      sdk: 'ext', // you need to copy the Ext JS SDK to the root of this package, or you can specify a full path to some other location
-      toolkit: 'classic',
-      theme: 'theme-triton',
+      sdk: 'ext', // you need to copy or link the Ext JS SDK to the root of this package, or you can specify a full path to some other location
+      toolkit: 'modern',
+      theme: 'theme-material',
       overrides: ['overrides'],
       packages: ['charts'],
       production: isProd
@@ -57,7 +57,7 @@ module.exports = function (env) {
   }
 
   plugins.push(new HtmlWebpackPlugin({
-    template: 'src/index.html',
+    template: 'index.html',
     hash: true
   }));
 
@@ -66,7 +66,7 @@ module.exports = function (env) {
     context: sourcePath,
 
     entry: [
-      './src/index'
+      './index'
     ],
 
     output: {

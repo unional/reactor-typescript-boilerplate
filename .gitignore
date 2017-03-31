@@ -46,3 +46,4 @@ spec-out
 build
 ext
 .sencha
+.DS_Store
