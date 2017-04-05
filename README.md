@@ -30,7 +30,7 @@ This will build and server the app using `webpack-dev-server`.  The build is don
 
     [INF] Waiting for changes...
 
-You can view the app by pointing your browser to [http://localhost:8070](http://localhost:8070)
+You can view the app by pointing your browser to [http://localhost:8081](http://localhost:8081)
 
 You can also run and serve a production build using:
 
