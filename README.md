@@ -1,5 +1,7 @@
 # Ext JS Reactor Boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/unional/reactor-typescript-boilerplate.svg)](https://greenkeeper.io/)
+
 A foundation for React apps that use Ext JS components, in TypeScript.
 
 ## Requirements
