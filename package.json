@@ -33,7 +33,7 @@
     "html-webpack-plugin": "^2.24.1",
     "reactor-webpack-ts-plugin": "^1.0.0",
     "source-map-loader": "^0.2.1",
-    "ts-loader": "^2.0.1",
+    "ts-loader": "^3.0.0",
     "typescript": "^2.2.2",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.2.1"
